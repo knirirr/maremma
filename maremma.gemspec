@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
 
   # Declary dependencies here, rather than in the Gemfile
-  s.add_dependency "activesupport", ">= 4.2.5", "< 6"
+  s.add_dependency 'activesupport', '~> 6.0.2'
   s.add_dependency "addressable", ">= 2.3.6"
   s.add_dependency "builder", "~> 3.2", ">= 3.2.2"
   s.add_dependency "excon", "~> 0.71.0"
